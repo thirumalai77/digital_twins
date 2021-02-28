@@ -11,6 +11,7 @@ function Router(){
             <div className="container">
             <Switch>
                 <Route path='/' exact component={Home}/>
+                
                 <Route path='/~about' component={About}/>
                 <Route path='/~services' component={Services}/>
                 <Route path='/~contactUs' component={ContactUs}/>
