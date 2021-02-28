@@ -5,15 +5,15 @@ import appLogo from '../assets/images/appLogo.jpeg';
 function Navigation(){
     return (
     <Navbar className='bg-template-color nav-bar-style' expand='lg'>
-        <Navbar.Brand className='position-relative logo-container' href="/">
-            <img
-                src={appLogo}
-                width="100"
-                height="100"
-                className="d-inline-block align-top logo-style"
-                alt="React Bootstrap logo"
-            />
-        </Navbar.Brand>
+    <Navbar.Brand className='position-relative logo-container' href="/">
+        <img
+            src={appLogo}
+            width="100"
+            height="100"
+            className="d-inline-block align-top logo-style"
+            alt="React Bootstrap logo"
+        />
+    </Navbar.Brand>
         <Nav className="justify-content-end col-md-11 menu-nav">
             <NavLink className="d-inline p-2 text-black pl-4 pr-4 nav-link" to='/~about'> About </NavLink>
             <NavLink className="d-inline p-2 text-black pl-4 pr-4 nav-link" to='/~services'> Services </NavLink>
