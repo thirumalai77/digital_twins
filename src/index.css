@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.bg-template-color {
+  background-color: #76f19a;
+}
+
+.menu-nav a:hover,.menu-nav .active{
+  background-color: yellow;
+  transition:all 0.3s ease;
+}
+
+.menu-nav a{
+  font-weight: 500;
+  height: 75px;
+  padding-top: 25px !important;
+  color:#000 !important;
+}
+
+.logo-style{
+  left: 0;
+  position: absolute;
+  top: 35px;
+  right: 0;
+}
+.nav-bar-style{
+  height:75px;
+}
+.logo-container{
+  width:100px;
+  height:100px;
+}
