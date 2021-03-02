@@ -34,7 +34,7 @@ function HomeSlider(){
         }
     ]
     return(
-        <Carousel pause={false} fade={true}>
+        <Carousel pause={false}>
             {sliderObj.map((sliObj)=>{
                 return(
                     <Carousel.Item>
