@@ -5,6 +5,7 @@ import appLogo from '../assets/images/appLogo.jpeg';
 function Navigation(){
     return (
     <Navbar className='bg-template-color nav-bar-style' expand='lg'>
+        <div class="container">
         <Navbar.Brand className='position-relative logo-container' href="/">
             <img
                 src={appLogo}
@@ -19,6 +20,7 @@ function Navigation(){
             <NavLink className="d-inline p-2 text-black pl-4 pr-4 nav-link" to='/~services'> Services </NavLink>
             <NavLink className="d-inline p-2 text-black pl-4 pr-4 nav-link" to='/~contactUs'> Contact Us </NavLink>
         </Nav>
+        </div>
         </Navbar>
     )
 }

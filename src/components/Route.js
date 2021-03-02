@@ -8,7 +8,7 @@ function Router(){
     return(
          <BrowserRouter>
             <NavBar />
-            <div className="container">
+            <div>
             <Switch>
                 <Route path='/' exact component={Home}/>
                 <Route path='/~about' component={About}/>
