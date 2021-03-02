@@ -13,7 +13,7 @@ code {
 }
 
 .bg-template-color {
-  background-color: #76f19a;
+  background-color: #fff;
 }
 
 .menu-nav a:hover,.menu-nav .active{
@@ -37,6 +37,9 @@ code {
 }
 .nav-bar-style{
   height:75px;
+  box-shadow: 0 0.125rem 1.5rem 0 rgb(0 0 0 / 20%);
+  z-index: 10;
+  transition: all 0.25s ease-in-out;
 }
 .logo-container{
   width:100px;
