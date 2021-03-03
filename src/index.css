@@ -17,9 +17,8 @@ code {
 }
 
 .menu-nav a:hover,.menu-nav .active{
-  background-color:#000;
-  color:#fff !important;
-  transition:all 0.3s ease;
+  background-color: yellow;
+  transition:all 0.8s ease;
 }
 
 .menu-nav a{
@@ -30,11 +29,8 @@ code {
 }
 
 .logo-style{
-  left: 0;
-  position: absolute;
-  top: 35px;
-  right: 0;
-  z-index: 10;
+  width: 125px;
+  margin-top: 9px;
 }
 .nav-bar-style{
   height:75px;
@@ -49,12 +45,50 @@ code {
 
 .carousel-label{
   opacity: 0.8;
-  background-color:#000;
+  background-color: yellow;
   left: 25% !important;
+  color: #000 !important;
   text-align: center;
   width:50%
 }
 
 .slider-image{
   height:88vh !important;
+}
+
+.footer-div{
+  height: 50px;
+  background-color: #51565b;
+  padding: 15px;
+}
+
+.footer-text{
+  color: #fff;
+  margin-top: 0;
+  text-align: left;
+  font-size: 14px;
+}
+
+.body-content{
+  height: 580px;
+}
+
+.footer-content{
+  float:left;
+}
+
+.footer-icons{
+  float:right
+}
+
+.footer-social-icons{
+  color: #fff;
+  font-size: 1.5em;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.footer-social-icons:hover{
+  color:yellow;
+  transition: all 0.5s ease;
 }

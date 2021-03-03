@@ -4,18 +4,20 @@ import About from './About';
 import Services from './Services';
 import ContactUs from './ContactUS';
 import Home from './Home';
+import Footer from './Footer';
 function Router(){
     return(
          <BrowserRouter>
             <NavBar />
-            <div>
+            <div className='body-content'>
             <Switch>
                 <Route path='/' exact component={Home}/>
                 <Route path='/~about' component={About}/>
                 <Route path='/~services' component={Services}/>
                 <Route path='/~contactUs' component={ContactUs}/>
             </Switch>
-            </div>   
+            </div>  
+            <Footer/> 
         </BrowserRouter>
     )
 }

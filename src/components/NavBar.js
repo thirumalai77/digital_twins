@@ -9,8 +9,6 @@ function Navigation(){
         <Navbar.Brand className='position-relative logo-container' href="/">
             <img
                 src={appLogo}
-                width="100"
-                height="100"
                 className="d-inline-block align-top logo-style"
                 alt="React Bootstrap logo"
             />
