@@ -96,6 +96,13 @@ code {
   cursor: pointer;
 }
 
+.content-social-icons{
+  color: #4dd9ed;
+  font-size: 3.5rem;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
 .footer-social-icons:hover{
   color:yellow;
   transition: all 0.5s ease;
@@ -135,6 +142,21 @@ code {
     color: #333;
 }
 
+.icon-div {
+  display: block;
+  padding: 4px;
+  margin-bottom: 20px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border-radius: 4px;
+  transition: border .2s ease-in-out;
+}
+
+.icon-div .caption {
+  padding: 9px;
+  color: #333;
+}
+
 .list-inline {
     padding-left: 0;
     margin-left: -5px;
@@ -150,4 +172,16 @@ code {
 .team-profile-img{
   height:150px;
   width:100%;
+}
+
+.split-div{
+  margin-top: 25px;
+}
+
+.icon-container{
+  margin-top: 40px !important;
+}
+
+.padding-6em{
+  padding: 0 6em;
 }
