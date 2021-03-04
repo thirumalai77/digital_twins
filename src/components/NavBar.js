@@ -4,8 +4,8 @@ import {Nav,Navbar} from 'react-bootstrap';
 import appLogo from '../assets/images/appLogo.jpeg';
 function Navigation(){
     return (
-    <Navbar className='bg-template-color nav-bar-style' expand='lg'>
-        <div class="container">
+    <Navbar className='bg-template-color nav-bar-style' fixed="top" expand='lg'>
+        <div className="container">
         <Navbar.Brand className='position-relative logo-container' href="/">
             <img
                 src={appLogo}
