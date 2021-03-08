@@ -53,21 +53,21 @@ function About(){
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>
             </Col>
             </Row>
-            <div class="row">
-            <div class="col-lg-12">
-                <h2 class="page-header">Our Team</h2>
+            <div className="row">
+            <div className="col-lg-12">
+                <h2 className="page-header">Our Team</h2>
             </div>
             {TeamObj.map((team)=>{
                 return(
-                    <div class="col-md-3 text-center">
-                        <div class="thumbnail">
-                            <img class="team-profile-img" src={team.profileImage} alt=""/>
-                            <div class="caption">
+                    <div className="col-md-3 text-center">
+                        <div className="thumbnail">
+                            <img className="team-profile-img" src={team.profileImage} alt=""/>
+                            <div className="caption">
                                 <h3>{team.name}<br/>
                                     <small>{team.desigination}</small>
                                 </h3>
                                 <p>{team.description}</p>
-                                <ul class="list-inline">
+                                <ul className="list-inline">
                                     <li><FontAwesomeIcon icon={faFacebook} className="team-social-icons" />
                                     </li>
                                     <li><FontAwesomeIcon icon={faTwitter} className="team-social-icons" />

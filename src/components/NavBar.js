@@ -1,7 +1,7 @@
 import React,{useState} from 'react';
 import {NavLink} from 'react-router-dom';
 import {Nav,Navbar} from 'react-bootstrap';
-import appLogo from '../assets/images/appLogo.jpeg';
+import appLogo from '../assets/images/appLogo.png';
 function Navigation(){
     return (
     <Navbar className='bg-template-color nav-bar-style' fixed="top" expand='lg'>

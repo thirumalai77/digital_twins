@@ -29,7 +29,7 @@ code {
 }
 
 .logo-style{
-  width: 125px;
+  width: 100px;
   margin-top: 9px;
 }
 .nav-bar-style{
@@ -91,6 +91,13 @@ code {
 
 .team-social-icons{
   color: #4dd9ed;
+  font-size: 1.5rem;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.home-social-icons{
+  color:yellow;
   font-size: 1.5rem;
   margin-right: 5px;
   cursor: pointer;
@@ -174,6 +181,12 @@ code {
   width:100%;
 }
 
+.home-content-img{
+  height:250px;
+  width:100%;
+  padding-bottom: 15px;
+}
+
 .split-div{
   margin-top: 25px;
 }
@@ -184,4 +197,57 @@ code {
 
 .padding-6em{
   padding: 0 6em;
+}
+
+.home-banner-image{
+  background-image:url('../src/assets/images/banner-logo.jpeg');
+}
+
+.banner-style{
+  height: 350px;
+  position: relative;
+  background-size: cover;
+  display: flex;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.banner-content{
+  margin:0 auto;
+  color: #fff;
+  z-index: 5;
+  margin-top: 7em;
+}
+
+.slick-slider{
+  overflow: hidden;
+}
+
+.banner-overlay{
+  background-color: rgba(0, 0, 0, 0.6);
+  opacity: 1;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.heading{
+  margin: 10px;
+  color:yellow;
+}
+
+.arrow-styles{
+  text-align: right;
+    margin-bottom: 25px;
+    margin-right: 40px
+}
+
+.home-caption{
+  text-align: left;
+  color: #fff;
+}
+
+.home-content-slider{
+  padding-top:25px;
+  background-color: darkgray;
+  padding-bottom: 25px;
 }
