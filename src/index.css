@@ -203,6 +203,10 @@ code {
   background-image:url('../src/assets/images/banner-logo.jpeg');
 }
 
+.services-banner-image{
+  background-image: url('../src/assets/images/HomeSlider/Slide_2.jpeg');
+}
+
 .banner-style{
   height: 350px;
   position: relative;
@@ -250,4 +254,12 @@ code {
   padding-top:25px;
   background-color: darkgray;
   padding-bottom: 25px;
+}
+
+.services-social-icons {
+  color: #4dd9ed;
+  font-size: 2.5rem;
+  margin-right: 20px;
+  cursor: pointer;
+  margin-top:8px
 }
