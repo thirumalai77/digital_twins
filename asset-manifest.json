@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/digital_twins/static/css/main.29252211.chunk.css",
+    "main.js": "/digital_twins/static/js/main.fedc5750.chunk.js",
+    "main.js.map": "/digital_twins/static/js/main.fedc5750.chunk.js.map",
+    "runtime-main.js": "/digital_twins/static/js/runtime-main.3e0709bb.js",
+    "runtime-main.js.map": "/digital_twins/static/js/runtime-main.3e0709bb.js.map",
+    "static/css/2.54cf6a55.chunk.css": "/digital_twins/static/css/2.54cf6a55.chunk.css",
+    "static/js/2.a159e457.chunk.js": "/digital_twins/static/js/2.a159e457.chunk.js",
+    "static/js/2.a159e457.chunk.js.map": "/digital_twins/static/js/2.a159e457.chunk.js.map",
+    "static/js/3.03e4edd2.chunk.js": "/digital_twins/static/js/3.03e4edd2.chunk.js",
+    "static/js/3.03e4edd2.chunk.js.map": "/digital_twins/static/js/3.03e4edd2.chunk.js.map",
+    "index.html": "/digital_twins/index.html",
+    "static/css/2.54cf6a55.chunk.css.map": "/digital_twins/static/css/2.54cf6a55.chunk.css.map",
+    "static/css/main.29252211.chunk.css.map": "/digital_twins/static/css/main.29252211.chunk.css.map",
+    "static/js/2.a159e457.chunk.js.LICENSE.txt": "/digital_twins/static/js/2.a159e457.chunk.js.LICENSE.txt",
+    "static/media/Slide_1.09c087e3.jpeg": "/digital_twins/static/media/Slide_1.09c087e3.jpeg",
+    "static/media/index.css": "/digital_twins/static/media/banner-logo.5ea212d1.jpeg",
+    "static/media/Slide_3.ac113a17.jpeg": "/digital_twins/static/media/Slide_3.ac113a17.jpeg",
+    "static/media/Slide_4.598eb841.jpeg": "/digital_twins/static/media/Slide_4.598eb841.jpeg",
+    "static/media/Slide_5.e8d4da1a.jpeg": "/digital_twins/static/media/Slide_5.e8d4da1a.jpeg",
+    "static/media/appLogo.b408b9ef.png": "/digital_twins/static/media/appLogo.b408b9ef.png",
+    "static/media/slick-theme.css": "/digital_twins/static/media/slick.c94f7671.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3e0709bb.js",
+    "static/css/2.54cf6a55.chunk.css",
+    "static/js/2.a159e457.chunk.js",
+    "static/css/main.29252211.chunk.css",
+    "static/js/main.fedc5750.chunk.js"
+  ]
+}
