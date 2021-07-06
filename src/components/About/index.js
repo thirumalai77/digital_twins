@@ -17,28 +17,47 @@ function About(){
     const TeamObj = [
         {
             profileImage:sliderImageOne,
-            name:'John Smith',
-            desigination: 'BIM Modeler',
-            description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime."
+            name:'BIM Manager',
+            desigination: '',
+            description:`Our BIM Manager is the person who is responsible for the implementation of Building Information
+            Modelling (BIM) and digital construction procedures.
+            He or she deals with organising the digital processes, supervising and generally coordinating orders and
+            the specialised human resources involved in the BIM process. The BIM Manager manages also interacts
+            mainly with two other management figures: the BIM Modeller and the BIM Coordinator; but possess the
+            right background to make the final decisions independently. They have the practical knowledge that
+            allows them to be fully involved in the management process and the creation of standards and
+            documentation.`
         },
         {
             profileImage:sliderImageTwo,
-            name:'Micheal Bose',
-            desigination: 'BIM Modeler',
-            description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime."
+            name:'BIM Cooridnator',
+            desigination: '',
+            description:`Our BIM coordinator coordinates the process of generating and managing digital models of places;
+            building information models are virtual files that help with decision-making during the building process.
+            Our coordinators are well-educated in not only the industry in which they works, but in all aspects of
+            construction as well.
+            Aside from time spent in the office, our coordinator also likely spends substantial time at job/build sites
+            to inspect the project and witness progress as it happens; the coordinator can compare real-time
+            progress to the building model plan and revise when needed.`
         },
         {
             profileImage:sliderImageThree,
-            name:'Dwayne Johnson',
-            desigination: 'Managing Director',
-            description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime."
-        },
-        {
-            profileImage:sliderImageFour,
-            name:'Robert Downey',
-            desigination: 'Technical Lead',
-            description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime."
+            name:'BIM Modeller',
+            desigination: '',
+            description:`Our BIM modeler is the person who actually makes the model. He/She will model the elements, will
+            add the requirement information to the elements. They are able to make new elements (custom revit
+            families for example). He knows how to make schedules which support him in modelling. Modelling for
+            us, is making a 3D element PLUS adding the right info to it.
+            We always like to team up engineers with a modeler. The BIM engineer brings input to the model. He (or
+            she) has the technical knowledge that needs to be brought into the model. It's the responsibility of the
+            engineer to make this happen.`
         }
+        // {
+        //     profileImage:sliderImageFour,
+        //     name:'Robert Downey',
+        //     desigination: 'Technical Lead',
+        //     description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime."
+        // }
     ];
     return(
         <Container className="content-div">
@@ -48,9 +67,8 @@ function About(){
             </Col>
             <Col className="col-md-6 text-left">
                 <h2>About Digital Twin</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed voluptate nihil eum consectetur similique? Consectetur, quod, incidunt, harum nisi dolores delectus reprehenderit voluptatem perferendis dicta dolorem non blanditiis ex fugiat.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, magni, aperiam vitae illum voluptatum aut sequi impedit non velit ab ea pariatur sint quidem corporis eveniet. Odit, temporibus reprehenderit dolorum!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, consequuntur, modi mollitia corporis ipsa voluptate corrupti eum ratione ex ea praesentium quibusdam? Aut, in eum facere corrupti necessitatibus perspiciatis quis?</p>
+                <p>We're an independently owned strategic creative agency forever curious and ready to transform the way business is done.</p>
+                <p>Although we are a well-oiled machine, our people are talented and we cultivate the importance of honoring their respective crafts. It helps to better serve both each other and our partners and it shows in everything from what we design and produce, so what we value and believe.</p>
             </Col>
             </Row>
             <div className="row">
@@ -67,14 +85,14 @@ function About(){
                                     <small>{team.desigination}</small>
                                 </h3>
                                 <p>{team.description}</p>
-                                <ul className="list-inline">
+                                {/* <ul className="list-inline">
                                     <li><FontAwesomeIcon icon={faFacebook} className="team-social-icons" />
                                     </li>
                                     <li><FontAwesomeIcon icon={faTwitter} className="team-social-icons" />
                                     </li>
                                     <li><FontAwesomeIcon icon={faLinkedinIn} className="team-social-icons" />
                                     </li>
-                                </ul>
+                                </ul> */}
                             </div>
                         </div>
                     </div>

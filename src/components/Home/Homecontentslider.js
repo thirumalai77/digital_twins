@@ -16,23 +16,23 @@ function Homecontentslider(props){
     const TeamObj = [
         {
             bannerImage:sliderImageOne,
-            title:'John Smith',
-            description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime."
+            title:'MEP Coordination and BOQ',
+            description:""
         },
         {
             bannerImage:sliderImageTwo,
-            title:'Micheal Bose',
-            description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime."
+            title:'Facade Models',
+            description:""
         },
         {
             bannerImage:sliderImageThree,
-            title:'Dwayne Johnson',
-            description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime."
+            title:'MEP Models',
+            description:""
         },
         {
             bannerImage:sliderImageFour,
-            title:'Robert Downey',
-            description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime."
+            title:'Structure Models',
+            description:""
         }
     ];
     const settings = {

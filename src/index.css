@@ -17,7 +17,8 @@ code {
 }
 
 .menu-nav a:hover,.menu-nav .active{
-  background-color: yellow;
+  background-color: #555;
+  color: #fff !important;
   transition:all 0.8s ease;
 }
 
@@ -45,7 +46,7 @@ code {
 
 .carousel-label{
   opacity: 0.8;
-  background-color: yellow;
+  background-color:#4DDAEE;
   left: 25% !important;
   color: #000 !important;
   text-align: center;
@@ -236,7 +237,7 @@ code {
 
 .heading{
   margin: 10px;
-  color:yellow;
+  color:#fff;
 }
 
 .arrow-styles{

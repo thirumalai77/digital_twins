@@ -4,33 +4,33 @@ import sliderImageOne from '../../assets/images/HomeSlider/Slide_1.jpeg';
 import sliderImageTwo from '../../assets/images/HomeSlider/Slide_2.jpeg';
 import sliderImageThree from '../../assets/images/HomeSlider/Slide_3.jpeg';
 import sliderImageFour from '../../assets/images/HomeSlider/Slide_4.jpeg';
-import sliderImageFive from '../../assets/images/HomeSlider/Slide_5.jpeg';
+import sliderImageFive from '../../assets/images/HomeSlider/Slide_5.jpg';
 function HomeSlider(){
     const sliderObj = [
         {
             sliderImage:sliderImageOne,
-            sliderHeader:'First Slide Label',
-            sliderDesc: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+            sliderHeader:'MEP Coordination and BOQ',
+            sliderDesc: ''
         },
         {
             sliderImage:sliderImageTwo,
-            sliderHeader:'Second Slide Label',
-            sliderDesc: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+            sliderHeader:'Facade Models',
+            sliderDesc: ''
         },
         {
             sliderImage:sliderImageThree,
-            sliderHeader:'Third Slide Label',
-            sliderDesc: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+            sliderHeader:'MEP Models',
+            sliderDesc: ''
         },
         {
             sliderImage:sliderImageFour,
-            sliderHeader:'Four Slide Label',
-            sliderDesc: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+            sliderHeader:'Structure Models',
+            sliderDesc: ''
         },
         {
             sliderImage:sliderImageFive,
-            sliderHeader:'Five Slide Label',
-            sliderDesc: 'Nulla vitae elit libero, a pharetra augue mollis interdum.'
+            sliderHeader:'Architecture Models',
+            sliderDesc: ''
         }
     ]
     return(

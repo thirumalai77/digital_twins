@@ -25,25 +25,33 @@ function Services(){
 
         <div class="container split-div">
         <Tabs defaultActiveKey="profile" id="uncontrolled-tab-example">
-            <Tab eventKey="home" title="Home">
+            <Tab eventKey="home" title="Models">
             <div style={{textAlign:'left',marginLeft:10}}>   
-            <h4 style={{marginTop:15}}>Service One</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+            <h4 style={{marginTop:15}}>Models</h4>
+                <p>A 3D model is a mathematical representation of something three-dimensional. 3D models are used to
+                    portray real-world and conceptual visuals for better understanding and coordinjation in AEC industries. It
+                    is being acclaimed by its advocates as a lifesaver for complicated projects because of its ability to correct
+                    errors early in the design stage and accurately schedule construction.</p>
+                <p>We deliver the models in designated software extensions such as .rvt, .nwc and so on...</p>
             </div> 
             </Tab>
-            <Tab eventKey="profile" title="Profile">
+            <Tab eventKey="profile" title="Shop Drawings">
             <div style={{textAlign:'left',marginLeft:10}}>   
-            <h4 style={{marginTop:15}}>Service Two</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+            <h4 style={{marginTop:15}}>Shop Drawings</h4>
+                <p>Design drawings are used in the early stage of design development as a means to communicate design
+                    ideas and proposals. In comparison, shop drawings provide the details needed by a fabricator during
+                    fabrication, assembly, installation and erection, such as the specified material, weld types and
+                    connections. All our drawings will be given in CAD and PDF formats.</p>
             </div>
             </Tab>
-            <Tab eventKey="contact" title="Contact">
+            <Tab eventKey="contact" title="As-Built & Facilities Management">
             <div style={{textAlign:'left',marginLeft:10}}>   
-            <h4 style={{marginTop:15}}>Service Three</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae repudiandae fugiat illo cupiditate excepturi esse officiis consectetur, laudantium qui voluptatem. Ad necessitatibus velit, accusantium expedita debitis impedit rerum totam id. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus quibusdam recusandae illum, nesciunt, architecto, saepe facere, voluptas eum incidunt dolores magni itaque autem neque velit in. At quia quaerat asperiores.</p>
+            <h4 style={{marginTop:15}}>As-Built & Facilities Management</h4>
+                <p>The simplest introduction to BIM for facilities managers is through digital twins. A digital twin is a 3D
+                    digital replication of a physical building and the baseline model for a BIM record. A digital twin allows a
+                    facilities manager to identify different elements of a building, isolate them for their information, and
+                    understand the needs of both that specific element and its relationship to peripheral systems. We also
+                    incorporate the data as per the industry CoBie standard.</p>
             </div>
             </Tab>
         </Tabs>

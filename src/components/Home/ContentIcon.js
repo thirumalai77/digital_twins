@@ -11,28 +11,28 @@ function ContentIcon(){
     const TeamObj = [
         {
             icon:faNetworkWired,
-            name:'Building',
-            description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime."
+            name:'BIM Model',
+            description:"BIM was introduced over a decade ago mainly to distinguish the information-rich architectural 3D modeling from the traditional 2D drawing"
         },
         {
             icon:faCogs,
-            name:'Development',
-            description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime."
+            name:'Shop Drawings',
+            description:"Shop drawings provide the details needed by a fabricator during fabrication, assembly, installation and erection, such as the specified material, weld types and connections."
         },
         {
             icon:faBuilding,
-            name:'Design',
-            description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime."
+            name:'Design & Development',
+            description:"In design development, the schematic plans and elevations are reviewed, revised and expanded to incorporate all the details and specifications required for construction"
         },
         {
             icon:faWrench,
-            name:'Maintanence',
-            description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime."
+            name:'Point Cloud to BIM',
+            description:"A 3D laser scanning device is used to capture the existing conditions, the scanned data is in the form of “Points” when millions of such points are combined together that formulates as a Point Cloud Scan."
         },
         {
             icon:faDraftingCompass,
-            name:'Deployment',
-            description:"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste saepe et quisquam nesciunt maxime."
+            name:'As-Build & Facilities Management',
+            description:"A digital twin allows a facilities manager to identify different elements of a building, isolate them for their information, and understand the needs of both that specific element and its relationship to peripheral systems."
         }
     ];
     return(
