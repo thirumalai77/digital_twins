@@ -77,7 +77,7 @@ function About(){
             </div>
             {TeamObj.map((team)=>{
                 return(
-                    <div className="col-md-3 text-center">
+                    <div className="col-md-3 text-left">
                         <div className="thumbnail">
                             <img className="team-profile-img" src={team.profileImage} alt=""/>
                             <div className="caption">

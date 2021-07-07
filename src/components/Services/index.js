@@ -57,7 +57,7 @@ function Services(){
         </Tabs>
         </div>
 
-        <div class="container split-div text-left">
+        {/* <div class="container split-div text-left">
             <div class="col-lg-12">
                 <h2 class="page-header">Service List</h2>
             </div>
@@ -148,7 +148,7 @@ function Services(){
                     </div>
                 </div>
             </div>
-        </div>
+        </div> */}
         <div style={{clear:'both'}}></div>
     </>
     )
