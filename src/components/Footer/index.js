@@ -9,7 +9,7 @@ import {
 function Footer(){
     return(
         <div className='footer-div'>
-            <div className="footer-content"><p className='footer-text'>Copyright © 2021 Digital Twin Technologies Pvt. Ltd, All Rights Reserved.</p></div>
+            <div className="footer-content"><p className='footer-text'>Copyright © 2024 Digital Twin Technologies Pvt. Ltd, All Rights Reserved.</p></div>
             <div className="footer-icons"><FontAwesomeIcon icon={faFacebook} className="footer-social-icons" />
             <FontAwesomeIcon icon={faTwitter} className="footer-social-icons" />
             <FontAwesomeIcon icon={faLinkedinIn} className="footer-social-icons" /></div>
